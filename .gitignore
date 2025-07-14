@@ -12,6 +12,7 @@
 !default.perspectivev3
 *.xcscmblueprint
 *.xccheckout
+*.xcuserstate
 *.moved-aside
 *.ipa
 *.dSYM.zip
