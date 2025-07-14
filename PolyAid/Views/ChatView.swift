@@ -1,53 +1,58 @@
 import SwiftUI
 
-/// The main chat interface view, containing the message list and input controls.
-/// This view is driven by the `ChatViewModel`.
 struct ChatView: View {
-    /// The ViewModel that provides state and logic for this view.
-    /// `@ObservedObject` ensures the view re-renders when the ViewModel's
-    /// `@Published` properties change.
-    @ObservedObject var viewModel: ChatViewModel
-
-    var body: some View {
-        VStack(spacing: 0) {
-            // The area where messages are displayed.
-            ScrollView {
-                // LazyVStack is efficient for long lists of messages.
-                LazyVStack(spacing: 0) {
-                    ForEach(viewModel.messages) { message in
-                        MessageView(message: message)
-                    }
-                }
-            }
-
-            // A divider to separate the message list from the input area.
-            Divider()
-
-            // The input area at the bottom.
-            HStack(spacing: 12) {
-                // The text field for user input.
-                TextField("Enter your message...", text: $viewModel.userInput)
-                    .textFieldStyle(.plain)
-                    .onSubmit(viewModel.sendMessage) // Send on pressing Enter.
-
-                // A button to send the message.
-                Button(action: viewModel.sendMessage) {
-                    Image(systemName: "arrow.up.circle.fill")
-                        .font(.title)
-                }
-                .buttonStyle(.borderless)
-                .tint(.blue)
-                // Disable the button if a message is empty or loading.
-                .disabled(viewModel.userInput.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || viewModel.isLoading)
-
-                // Show a progress indicator while waiting for a response.
-                if viewModel.isLoading {
-                    ProgressView()
-                        .scaleEffect(0.8)
-                        .frame(width: 28, height: 28)
-                }
-            }
-            .padding()
-        }
-    }
+	@ObservedObject var viewModel: ChatViewModel
+	// --- MODIFICATION START ---
+	/// State to control the presentation of the settings sheet.
+	@State private var showingSettings = false
+	// --- MODIFICATION END ---
+	
+	var body: some View {
+		VStack(spacing: 0) {
+			ScrollView {
+				LazyVStack(spacing: 0) {
+					ForEach(viewModel.messages) { message in
+						MessageView(message: message)
+					}
+				}
+			}
+			
+			Divider()
+			
+			HStack(spacing: 12) {
+				TextField("Enter your message...", text: $viewModel.userInput)
+					.textFieldStyle(.plain)
+					.onSubmit(viewModel.sendMessage)
+				
+				Button(action: viewModel.sendMessage) {
+					Image(systemName: "arrow.up.circle.fill")
+						.font(.title)
+				}
+				.buttonStyle(.borderless)
+				.tint(.blue)
+				.disabled(viewModel.userInput.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || viewModel.isLoading)
+				
+				if viewModel.isLoading {
+					ProgressView()
+						.scaleEffect(0.8)
+						.frame(width: 28, height: 28)
+				}
+			}
+			.padding()
+		}
+		// --- MODIFICATION START ---
+		.toolbar {
+			// Add a toolbar to the top of the view.
+			ToolbarItem(placement: .automatic) {
+				Button(action: { showingSettings = true }) {
+					Label("Settings", systemImage: "gear")
+				}
+			}
+		}
+		.sheet(isPresented: $showingSettings) {
+			// Present the SettingsView as a modal sheet.
+			SettingsView()
+		}
+		// --- MODIFICATION END ---
+	}
 }

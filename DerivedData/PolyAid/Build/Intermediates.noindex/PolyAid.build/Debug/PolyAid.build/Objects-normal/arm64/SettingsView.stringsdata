@@ -1,0 +1,72 @@
+{
+  "source": "/Users/bhc/Desktop/PolyAid/PolyAid/Views/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "API Key Management",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "OpenAI",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter your OpenAI API Key",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "An OpenAI key is saved in your Keychain.",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "No OpenAI key is saved.",
+        "location": {
+          "startingColumn": 94,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Key",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete Key",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 29
+        }
+      }
+    ]
+  },
+  "version": 1
+}

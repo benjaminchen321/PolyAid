@@ -19,7 +19,7 @@ final class OpenAIService: LLMService {
         // 1. Prepare the request body
         let requestMessages = messages.map { OpenAIChatMessage(role: $0.role.rawValue, content: $0.content) }
         // For now, we hardcode the model. This will be customizable later.
-        let requestBody = OpenAIChatRequest(model: "gpt-4o", messages: requestMessages)
+        let requestBody = OpenAIChatRequest(model: "gpt-4.1", messages: requestMessages)
 
         // 2. Create the URLRequest
         var request = URLRequest(url: apiEndpoint)

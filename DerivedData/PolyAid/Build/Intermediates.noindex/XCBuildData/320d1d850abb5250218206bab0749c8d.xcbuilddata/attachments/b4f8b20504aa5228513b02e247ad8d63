@@ -1,0 +1,158 @@
+{
+  "" : {
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAid-master.dia",
+    "emit-module-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAid-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAid-master-emit-module.dia",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAid-master.swiftdeps"
+  },
+  "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/ContentView.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Errors/PolyAidError.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidError.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidError.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidError.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidError.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidError.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidError.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidError.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidError~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Models/ChatMessage.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatMessage.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatMessage.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatMessage.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatMessage.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatMessage.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatMessage.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatMessage.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatMessage~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Models/OpenAIModels.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIModels.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIModels.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIModels.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIModels.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIModels.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIModels.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIModels.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIModels~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/PolyAidApp.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidApp.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidApp.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidApp.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidApp.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidApp.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidApp.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidApp.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/PolyAidApp~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Services/KeychainService.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/KeychainService.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/KeychainService.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/KeychainService.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/KeychainService.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/KeychainService.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/KeychainService.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/KeychainService.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/KeychainService~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Services/LLMService.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/LLMService.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/LLMService.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/LLMService.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/LLMService.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/LLMService.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/LLMService.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/LLMService.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/LLMService~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Services/MockLLMService.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MockLLMService.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MockLLMService.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MockLLMService.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MockLLMService.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MockLLMService.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MockLLMService.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MockLLMService.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MockLLMService~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Services/OpenAIService.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIService.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIService.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIService.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIService.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIService.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIService.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIService.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/OpenAIService~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/ViewModels/ChatViewModel.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatViewModel.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatViewModel.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatViewModel.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatViewModel.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatViewModel.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatViewModel.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatViewModel.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatViewModel~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/ViewModels/SettingsViewModel.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsViewModel.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsViewModel.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsViewModel.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsViewModel.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsViewModel.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsViewModel.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsViewModel~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Views/ChatView.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatView.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatView.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatView.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatView.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatView.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatView.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatView.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/ChatView~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Views/MessageView.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MessageView.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MessageView.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MessageView.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MessageView.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MessageView.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MessageView.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MessageView.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/MessageView~partial.swiftmodule"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAid/Views/SettingsView.swift" : {
+    "const-values" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAid.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  }
+}

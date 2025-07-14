@@ -1,0 +1,51 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "be4272d2ab88afa3cf2b8dd168c810f865b4196b63cbb7d2ee7b1adcf845f83b"
+    },
+    {
+      "guid" : "be4272d2ab88afa3cf2b8dd168c810f8ef2f4e2bc54bccef9cf0e98a80969707"
+    }
+  ],
+  "containerPath" : "/Users/bhc/Desktop/PolyAid/PolyAid.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/bhc/Desktop/PolyAid/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Build/Products",
+      "pchPath" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

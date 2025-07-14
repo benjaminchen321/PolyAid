@@ -1,0 +1,27 @@
+{
+  "" : {
+    "dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAidTest.build/Objects-normal/arm64/PolyAidTest-master.d",
+    "diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAidTest.build/Objects-normal/arm64/PolyAidTest-master.dia",
+    "emit-module-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAidTest.build/Objects-normal/arm64/PolyAidTest-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAidTest.build/Objects-normal/arm64/PolyAidTest-master-emit-module.dia",
+    "swift-dependencies" : "/Users/bhc/Desktop/PolyAid/DerivedData/PolyAid/Index.noindex/Build/Intermediates.noindex/PolyAid.build/Debug/PolyAidTest.build/Objects-normal/arm64/PolyAidTest-master.swiftdeps"
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAidTest/ChatViewModelTests.swift" : {
+
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAidTest/KeychainServiceTests.swift" : {
+
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAidTest/MockLLMServiceTests.swift" : {
+
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAidTest/OpenAIServiceTests.swift" : {
+
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAidTest/SettingsViewModelTests.swift" : {
+
+  },
+  "/Users/bhc/Desktop/PolyAid/PolyAidTest/URLProtocolMock.swift" : {
+
+  }
+}

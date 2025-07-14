@@ -1,0 +1,24 @@
+{
+  "source": "/Users/bhc/Desktop/PolyAid/PolyAid/Views/ChatView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enter your message...",
+        "location": {
+          "startingColumn": 15,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 12,
+          "startingLine": 48
+        }
+      }
+    ]
+  },
+  "version": 1
+}

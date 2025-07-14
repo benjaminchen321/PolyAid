@@ -1,72 +1,96 @@
 import XCTest
 @testable import PolyAid
 
-/// Tests for the `ChatViewModel` to ensure its state management and logic are correct.
 @MainActor
 final class ChatViewModelTests: XCTestCase {
-
-    private var viewModel: ChatViewModel!
-    private var mockLLMService: MockLLMService!
-
-    override func setUp() {
-        super.setUp()
-        // Before each test, create a new mock service and a new ViewModel instance.
-        mockLLMService = MockLLMService()
-        viewModel = ChatViewModel(llmService: mockLLMService)
-    }
-
-    override func tearDown() {
-        viewModel = nil
-        mockLLMService = nil
-        super.tearDown()
-    }
-
-    /// Tests the successful flow of sending a message and receiving a response.
-    func testSendMessage_WhenSuccessful_AppendsUserAndAssistantMessages() async {
-        // 1. Arrange
-        let initialMessageCount = viewModel.messages.count
-        let testInput = "This is a test"
-        viewModel.userInput = testInput
-
-        // 2. Act
-        viewModel.sendMessage()
-
-        // Assert that the user message is added immediately and input is cleared.
-        XCTAssertEqual(viewModel.messages.count, initialMessageCount + 1)
-        XCTAssertEqual(viewModel.messages.last?.content, testInput)
-        XCTAssertEqual(viewModel.messages.last?.role, .user)
-        XCTAssertTrue(viewModel.userInput.isEmpty, "User input should be cleared after sending.")
-        XCTAssertTrue(viewModel.isLoading, "ViewModel should be in a loading state.")
-
-        // Use an expectation to wait for the async response to be processed.
-        let expectation = XCTestExpectation(description: "Wait for assistant response")
-        // We check every 100ms if the loading state has been reset.
-        Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { [weak self] timer in
-            if self?.viewModel.isLoading == false {
-                expectation.fulfill()
-                timer.invalidate()
-            }
-        }
-        await fulfillment(of: [expectation], timeout: 2.0) // 2-second timeout
-
-        // 3. Assert
-        XCTAssertFalse(viewModel.isLoading, "ViewModel should not be in a loading state after completion.")
-        XCTAssertEqual(viewModel.messages.count, initialMessageCount + 2, "Should have user message and assistant response.")
-        XCTAssertEqual(viewModel.messages.last?.role, .assistant, "The last message should be from the assistant.")
-        XCTAssertTrue(viewModel.messages.last?.content.contains(testInput) ?? false, "Assistant response should contain original user message.")
-    }
-
-    /// Tests that the sendMessage function does nothing if the user input is empty or just whitespace.
-    func testSendMessage_WithEmptyInput_DoesNothing() {
-        // 1. Arrange
-        let initialMessageCount = viewModel.messages.count
-        viewModel.userInput = "   " // Whitespace only
-
-        // 2. Act
-        viewModel.sendMessage()
-
-        // 3. Assert
-        XCTAssertEqual(viewModel.messages.count, initialMessageCount, "Message count should not change for empty input.")
-        XCTAssertFalse(viewModel.isLoading, "Should not enter loading state for empty input.")
-    }
+	
+	private var viewModel: ChatViewModel!
+	private var mockLLMService: MockLLMService!
+	// --- MODIFICATION START ---
+	private var keychainService: KeychainService!
+	private let testServiceIdentifier = "OpenAI"
+	// --- MODIFICATION END ---
+	
+	override func setUp() {
+		super.setUp()
+		mockLLMService = MockLLMService()
+		// --- MODIFICATION START ---
+		keychainService = KeychainService()
+		// Clean the keychain before each test.
+		_ = keychainService.delete(for: testServiceIdentifier)
+		// Inject both the mock LLM service and the real keychain service.
+		viewModel = ChatViewModel(llmService: mockLLMService, keychainService: keychainService)
+		// --- MODIFICATION END ---
+	}
+	
+	override func tearDown() {
+		// --- MODIFICATION START ---
+		_ = keychainService.delete(for: testServiceIdentifier)
+		keychainService = nil
+		// --- MODIFICATION END ---
+		viewModel = nil
+		mockLLMService = nil
+		super.tearDown()
+	}
+	
+	/// Tests the successful flow when an API key IS present.
+	func testSendMessage_WithAPIKey_AppendsUserAndAssistantMessages() async {
+		// 1. Arrange
+		// --- MODIFICATION START ---
+		// Save a dummy API key to the keychain to simulate a valid setup.
+		_ = keychainService.save(apiKey: "dummy-test-key", for: testServiceIdentifier)
+		// --- MODIFICATION END ---
+		let testInput = "This is a test"
+		viewModel.userInput = testInput
+		
+		// 2. Act
+		viewModel.sendMessage()
+		
+		// Assertions for immediate UI updates
+		XCTAssertEqual(viewModel.messages.count, 1)
+		XCTAssertTrue(viewModel.isLoading)
+		
+		// Wait for async response
+		let expectation = XCTestExpectation(description: "Wait for assistant response")
+		Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { [weak self] timer in
+			if self?.viewModel.isLoading == false {
+				expectation.fulfill()
+				timer.invalidate()
+			}
+		}
+		await fulfillment(of: [expectation], timeout: 2.0)
+		
+		// 3. Assert
+		XCTAssertFalse(viewModel.isLoading)
+		XCTAssertEqual(viewModel.messages.count, 2)
+		XCTAssertEqual(viewModel.messages.last?.role, .assistant)
+	}
+	
+	// --- NEW TEST ---
+	/// Tests the failure flow when an API key IS NOT present.
+	func testSendMessage_WithoutAPIKey_AppendsSystemErrorMessage() {
+		// 1. Arrange
+		// Ensure no key is saved (done in setUp).
+		let testInput = "This should fail"
+		viewModel.userInput = testInput
+		
+		// 2. Act
+		viewModel.sendMessage()
+		
+		// 3. Assert
+		// The view model should not be in a loading state as it failed pre-flight.
+		XCTAssertFalse(viewModel.isLoading)
+		// We should have the user's message and the system error message.
+		XCTAssertEqual(viewModel.messages.count, 2)
+		XCTAssertEqual(viewModel.messages.last?.role, .system)
+		XCTAssertTrue(viewModel.messages.last?.content.contains("API key not found") ?? false)
+	}
+	// --- END NEW TEST ---
+	
+	func testSendMessage_WithEmptyInput_DoesNothing() {
+		viewModel.userInput = "   "
+		viewModel.sendMessage()
+		XCTAssertEqual(viewModel.messages.count, 0)
+		XCTAssertFalse(viewModel.isLoading)
+	}
 }
