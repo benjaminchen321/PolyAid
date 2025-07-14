@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'PolyAidTest' in project 'PolyAid'
-➜ Explicit dependency on target 'PolyAid' in project 'PolyAid'
-Target 'PolyAid' in project 'PolyAid' (no dependencies)
